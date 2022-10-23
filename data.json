@@ -1,0 +1,50 @@
+[
+    {
+        "img":"./images/products/asc.jpg",
+        "price":"19999",
+        "description":"Anti Social Social Club Sugar Hill Hoodie Black",
+        "id":"1"
+    },
+    {
+        "img":"./images/products/drew.jpg",
+        "price":"24999",
+        "description":"Drew house fire hoodie black",
+        "id":"2"
+    },
+    {
+        "img":"./images/products/Supreme-Capital-Hooded-Sweatshirt-Red.jpg",
+        "price":"17999",
+        "description":"Stussy-Floral-Hoodie-White-Blue",
+        "id":"3"
+    },
+    {
+        "img":"./images/products/Nike-Dri-FIT-Rayguns-Hoodie.jpg",
+        "price":"23999",
+        "description":"Nike Dri-FIT Rayguns Hoodie",
+        "id":"4"
+    },
+    {
+        "img":"./images/products/Nike-SB-x-Samborghini-Hoody-Black.jpg",
+        "price":"21999",
+        "description":"Nike SB x Samborghini Hoody Black",
+        "id":"5"
+    },
+    {
+        "img":"./images/products/OVO-OG-Owl-Hoodie-Black.jpg",
+        "price":"43999",
+        "description":"OVO OG Owl Signature Hoodie Black",
+        "id":"6"
+    },
+    {
+        "img":"./images/products/Stussy-Floral-Hoodie-White-Blue.jpg",
+        "price":"21999",
+        "description":"Stussy Floral Hoodie White Blue",
+        "id":"7"
+    },
+    {
+        "img":"./images/products/jordan.jpg",
+        "price":"17999",
+        "description":"Jordan Jumpman Graphic Fleece Pullover Thermal ",
+        "id":"8"
+    }
+]
