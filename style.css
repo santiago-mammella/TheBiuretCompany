@@ -38,6 +38,7 @@ header{
     font-family: system-ui;
     line-height: 18px;
 }
+
 .logo{
     width: 164px;
     height: 84px;
@@ -56,8 +57,25 @@ header{
     padding: 0 18px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
     display: none;
-
     min-width: 290px;
+}
+.cart-products .buy{
+    font-family: system-ui;
+    text-decoration: none;
+    background: red;
+    padding: 5px 23px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.cart-products .buy:hover{
+    background: #fff;
+    color: red;
+    border: solid 2px red;
+    transition-duration: .3s;
 }
 
 .cart:hover{
@@ -121,7 +139,7 @@ header{
 
 /*float cart*/
 .cart-products .item img{
-    width: 115px;
+    width: 200px;
 }
 
 .cart-products .item{
@@ -179,6 +197,8 @@ p.author a {
     font-weight: 700;
     color: #000;
 }
+
+/*footer*/
 footer{
     width:px;
     display: flex;

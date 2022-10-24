@@ -3,6 +3,7 @@ let allContainerCart = document.querySelector('.products');
 let containerBuyCart = document.querySelector('.card-items');
 let priceTotal = document.querySelector('.price-total')
 let amountProduct = document.querySelector('.count-product');
+let checkAdd = document.querySelector('.buttom-buy');
 
 
 let buyThings = [];
@@ -22,7 +23,7 @@ fetch('./data.json')
                     <p><span>${post.price}</span>$</p>
                 </div>
                 <p class="title">${post.description}</p>
-                <a href="" data-id="${post.id}" class="btn-add-cart">add to cart</a>
+                <a href="" data-id="${post.id}" class="btn-add-cart">añadir producto</a>
             </div>
             `;
             lista.append(li)
@@ -109,8 +110,8 @@ function loadHtml(){
             <img src="${image}" alt="">
             <div class="item-content">
                 <h5>${title}</h5>
-                <h5 class="cart-price">${price}$</h5>
-                <h6>Amount: ${amount}</h6>
+                <h5 class="cart-price">$${price}</h5>
+                <h6>Cantidad: ${amount}</h6>
             </div>
             <span class="delete-product" data-id="${id}">X</span>
         `;
@@ -125,3 +126,19 @@ function loadHtml(){
  function clearHtml(){
     containerBuyCart.innerHTML = '';
  }
+
+ checkAdd.addEventListener('click', () => {
+    if(amountProduct.innerHTML==!0){
+
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Su compra fue realizada correctamente',
+            showConfirmButton: false,
+            timer: 1500
+        })
+        clearHtml();
+        priceTotal.innerHTML = 0;
+        amountProduct.innerHTML = 0;
+    }
+});
