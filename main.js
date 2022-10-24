@@ -128,8 +128,7 @@ function loadHtml(){
  }
 
  checkAdd.addEventListener('click', () => {
-    if(amountProduct.innerHTML==!0){
-
+    if(amountProduct.innerHTML>0){
         Swal.fire({
             position: 'top-end',
             icon: 'success',
